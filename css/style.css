@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background-color: #fbf7f4;
+}
+
+.hero {
+  background-color: #f9eae0;
+  /* padding: 50px 0; */
+  padding: 10px 0 40px 0;
+}
+
+.hero h3 {
+  font-size: 5rem;
+}
+
+.shop_now {
+  background-color: #fff;
+  padding: 50px;
+  margin: 10px 0;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+.main_heading {
+  font-size: 2.7rem;
+}
+
+.shop_now__text {
+  margin-top: 150px;
+}
+
+.img-rounded {
+  background: #fff;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+.img-rounded img {
+  width: 370px;
+  margin: auto;
+}
+.nav-img {
+  margin: 10px 0;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.nav-img img {
+  width: 55px;
+  margin: auto;
+  z-index: 100;
+}
+.connector {
+  display: none;
+  position: absolute;
+  right: 50px;
+  top: 22px;
+  z-index: 2;
+  margin: auto;
+}
+.active {
+  display: block;
+}
+.arrows {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #a6654b;
+  border-radius: 113px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  padding: 6px 0px;
+  position: absolute;
+  bottom: 254px;
+}
+
+.eclipse {
+  /* Ellipse 16 */
+
+  position: absolute;
+  width: 512px;
+  height: 506px;
+  left: 890px;
+  top: 1750px;
+
+  border: 2px solid #a6654b;
+  box-sizing: border-box;
+}
+
+.shop_now__image {
+  position: relative;
+}
+.shop_now__image img {
+  /* IMG_4584AA 1 */
+
+  position: absolute;
+  width: 401px;
+  height: 402px;
+  left: 50px;
+  top: 60px;
+}
+
+.card {
+  border-radius: 50px;
+}
+
+.card > * {
+  /* width: 80% !important; */
+  margin: auto;
+}
+.card img {
+  width: 80% !important;
+  margin: auto;
+}
+
+.btn-subito {
+  background: #a6654b;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}
