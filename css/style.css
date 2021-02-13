@@ -184,6 +184,14 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .shop_now__social_icons {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    justify-content: space-evenly;
+  }
+  .whatsapp_rectangle {
+    margin: 15px auto;
+  }
   .nav-images {
     display: flex;
     justify-content: space-around;
@@ -199,13 +207,24 @@ a:hover {
   .shop_now__image img {
     position: absolute;
     margin: auto;
-    width: 300px;
+    width: 280px;
     /* height: 402px; */
-    left: 40px;
-    top: 30px;
+    left: 0px;
+    top: 25px;
   }
   .shop_now__image svg {
     width: 100%;
     /* height: 320px; */
+  }
+  .img-rounded {
+    background: #fff;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+  .img-rounded img {
+    width: 300px;
+    margin: auto;
   }
 }
