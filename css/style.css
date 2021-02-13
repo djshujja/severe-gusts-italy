@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: "Merriweather", serif;
 }
 
 body {
@@ -31,7 +33,7 @@ body {
 }
 
 .shop_now__text {
-  margin-top: 150px;
+  margin-top: 20px;
 }
 
 .img-rounded {
@@ -68,17 +70,18 @@ body {
 .active {
   display: block;
 }
-.arrows {
-  font-size: 1rem;
+.arrow {
+  font-size: 2rem;
   text-align: center;
   background-color: #a6654b;
-  border-radius: 113px;
-  width: 50px;
-  height: 50px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
   color: white;
-  padding: 6px 0px;
+  /* margin: auto; */
+  padding-top: 5px;
   position: absolute;
-  bottom: 254px;
+  bottom: 200px;
 }
 
 .eclipse {
@@ -101,10 +104,11 @@ body {
   /* IMG_4584AA 1 */
 
   position: absolute;
-  width: 401px;
-  height: 402px;
-  left: 50px;
-  top: 60px;
+  width: 280px;
+  margin: auto;
+  /* height: 402px; */
+  left: 107px;
+  top: 28px;
 }
 
 .card {
@@ -128,7 +132,55 @@ body {
 }
 
 .shop_now__image svg {
-  width: 100%;
+  width: 500px;
+  height: 320px;
+}
+
+.shop_now__social_icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.whatsapp_rectangle {
+  height: 35px;
+  width: 175px;
+  background-color: #21d367;
+  padding: 5px 5px;
+  border-radius: 25px;
+  align-self: center;
+  color: white;
+}
+
+.whatsapp_rectangle i {
+  font-size: 1.5rem;
+}
+.primray-text {
+  color: #a6654b;
+  font-size: 2.6rem;
+}
+.product_slider {
+  padding: 80px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+
+.contatti {
+  padding: 100px 0px;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.price {
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -143,5 +195,17 @@ body {
 
   .shop_now {
     text-align: start;
+  }
+  .shop_now__image img {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    /* height: 402px; */
+    left: 40px;
+    top: 30px;
+  }
+  .shop_now__image svg {
+    width: 100%;
+    /* height: 320px; */
   }
 }

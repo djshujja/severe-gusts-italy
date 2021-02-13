@@ -17,7 +17,7 @@ window.onload = () => {
   imgThree.style.display = "none";
   imgFour.style.display = "none";
 
-  navImgOne.addEventListener("click", () => {
+  navImgOne.addEventListener("click", (e) => {
     imgOne.style.display = "block";
     imgTwo.style.display = "none";
     imgThree.style.display = "none";

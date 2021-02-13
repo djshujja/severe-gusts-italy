@@ -120,10 +120,13 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Collezione</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Shop Now</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contatti</a>
                   </li>
                   <!-- <li class="nav-item">
                   <a
@@ -177,7 +180,7 @@
               <img
                 id="header-nav-img-1"
                 src="./images/header/bag-1.png"
-                class="d-block"
+                class="d-block cursor-pointer"
                 alt=""
               />
             </div>
@@ -188,7 +191,7 @@
               <img
                 id="header-nav-img-2"
                 src="./images/header/bag-2.png"
-                class="d-block"
+                class="d-block cursor-pointer"
                 alt=""
               />
             </div>
@@ -199,7 +202,7 @@
               <img
                 id="header-nav-img-3"
                 src="./images/header/bag-3.png"
-                class="d-block"
+                class="d-block cursor-pointer"
                 alt=""
               />
             </div>
@@ -210,7 +213,7 @@
               <img
                 id="header-nav-img-4"
                 src="./images/header/bag-4.png"
-                class="d-block"
+                class="d-block cursor-pointer"
                 alt=""
               />
             </div>
@@ -223,11 +226,13 @@
       <!-- Product Slider -->
 
       <div class="product_slider">
-        <h4 class="main_heading">Scopri la nuova collezione 2021</h4>
+        <h4 class="main_heading text-center my-5">
+          Scopri la nuova collezione <span class="primray-text"> 2021 </span>
+        </h4>
         <!-- <div class="product_slider__row"> -->
         <div class="row product_slider__row">
-          <div class="owl-carousel owl-theme">
-            <div class="card item text-center" style="width: 100%">
+          <div class="owl-carousel owl-theme text-center">
+            <div class="card item shadow-sm" style="width: 100%">
               <img
                 src="./images/IMG_459AA.png"
                 class="card-img-top"
@@ -235,11 +240,11 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Severe Gusts</h5>
-                <p class="card-text">160€</p>
+                <p class="card-text price">160€</p>
                 <a href="#" class="btn btn-subito">Acquista Subito</a>
               </div>
             </div>
-            <div class="card item" style="width: 100%">
+            <div class="card item shadow-sm" style="width: 100%">
               <img
                 src="./images/IMG_4085AA.png"
                 class="card-img-top"
@@ -248,11 +253,11 @@
               <div class="card-body">
                 <h5 class="card-title">Severe Gusts</h5>
 
-                <p class="card-text">160€</p>
+                <p class="card-text price">160€</p>
                 <a href="#" class="btn btn-subito">Acquista Subito</a>
               </div>
             </div>
-            <div class="card item" style="width: 100%">
+            <div class="card item shadow-sm" style="width: 100%">
               <img
                 src="./images/IMG_4104AA.png"
                 class="card-img-top"
@@ -260,11 +265,23 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Severe Gusts</h5>
-                <p class="card-text">160€</p>
+                <p class="card-text price">160€</p>
                 <a href="#" class="btn btn-subito">Acquista Subito</a>
               </div>
             </div>
-            <div class="card item" style="width: 100%">
+            <div class="card item shadow-sm" style="width: 100%">
+              <img
+                src="./images/IMG_459AA.png"
+                class="card-img-top"
+                alt="product-image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Severe Gusts</h5>
+                <p class="card-text price">160€</p>
+                <a href="#" class="btn btn-subito">Acquista Subito</a>
+              </div>
+            </div>
+            <div class="card item shadow-sm" style="width: 100%">
               <img
                 src="./images/IMG_4142AA.png"
                 class="card-img-top"
@@ -272,7 +289,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Severe Gusts</h5>
-                <p class="card-text">160€</p>
+                <p class="card-text price">160€</p>
                 <a href="#" class="btn btn-subito">Acquista Subito</a>
               </div>
             </div>
@@ -283,32 +300,11 @@
       </div>
 
       <!-- Shop Now Section -->
-      <div class="shop_now">
+      <div class="shop_now shadow-sm">
         <div class="row">
-          <div class="col-md-6">
-            <div class="shop_now__text">
-              <h4 class="main_heading">Shop Now</h4>
-              <p>
-                Per supportarti all'acquisto abbiamo un numero WhatsApp devo
-                portai contattarci h24 e 7giorni su7.
-              </p>
-              <p>
-                Riceverai informazioni, dettagli e ptrai acquistare da WhatsApp
-                la tua SevereGusts
-              </p>
-            </div>
-            <div class="shop_now__social-icons">
-              <!-- Instagram Icon -->
-              <i class="fab fa-instagram"></i>
-              <!-- Facebook Icon -->
-              <i class="fab fa-facebook"></i>
-              <!-- Twitter Icon -->
-              <i class="fab fa-twitter"></i>
-              <!-- WhatsApp Icon -->
-              <i class="fab fa-whatsapp"></i>
-            </div>
-          </div>
-          <div class="col-md-6">
+          <h4 class="main_heading d-xl-none d-lg-none text-center">Shop Now</h4>
+
+          <div class="col-md-6 order-md-2">
             <div class="col-md-12 shop_now__image">
               <svg
                 viewBox="0 0 512 506"
@@ -321,7 +317,7 @@
                   stroke-width="2"
                 />
               </svg>
-              <img src="./images/IMG_4085AA.png" alt="" />
+              <img src="./images/IMG_459AA.png" alt="" />
 
               <!-- <img
                 src="./images/bag.jpg"
@@ -329,6 +325,44 @@
                 class="d-block w-100"
                 style=""
               /> -->
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <div class="shop_now__text">
+              <h4 class="main_heading d-none d-lg-block d-xl-block">
+                Shop Now
+              </h4>
+              <p>
+                Per supportarti all'acquisto abbiamo un numero WhatsApp devo
+                portai contattarci h24 e 7giorni su7.
+              </p>
+              <p>
+                Riceverai informazioni, dettagli e ptrai acquistare da WhatsApp
+                la tua SevereGusts
+              </p>
+            </div>
+            <div class="shop_now__social_icons">
+              <!-- Instagram Icon -->
+              <a href="#">
+                <img src="./images/social-icons/instagram.png" alt="insta" />
+              </a>
+              <!-- Facebook Icon -->
+              <!-- <i class="fab fa-facebook"></i> -->
+              <a href="#"
+                ><img src="./images/social-icons/facebook.png" alt=""
+              /></a>
+              <!-- Twitter Icon -->
+              <!-- <i class="fab fa-twitter"></i> -->
+              <a href="#">
+                <img src="./images/social-icons/twitter.png" alt="" />
+              </a>
+              <!-- WhatsApp Icon -->
+              <!-- <i class="fab fa-whatsapp"></i> -->
+              <div class="whatsapp_rectangle flex">
+                <a href="#">
+                  <p><i class="fab fa-whatsapp"></i> +39.0815560922</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -378,10 +412,10 @@
         },
       });
       $(".owl-prev").html(
-        '<i class="fa fa-chevron-left arrows bg-white text-dark" style="left:0px;"></i>'
+        '<i class="fa fa-chevron-left arrow shadow bg-white text-dark" style="left:0px;"></i>'
       );
       $(".owl-next").html(
-        '<i class="fa fa-chevron-right arrows" style="right:0px;"></i>'
+        '<i class="fa fa-chevron-right arrow shadow" style="right:0px;"></i>'
       );
     </script>
   </body>
