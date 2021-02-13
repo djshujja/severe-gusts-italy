@@ -184,6 +184,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .owl-nav{
+    position: relative;
+  }
+  .product_slider {
+    padding: 80px 0px;
+    height: 850px;
+}
   .shop_now__social_icons {
     display: grid;
     grid-template-columns: 60px 60px 60px;
