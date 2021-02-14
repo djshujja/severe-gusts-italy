@@ -11,6 +11,15 @@ body {
   background-color: #fbf7f4;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 .hero {
   background-color: #f9eae0;
   /* padding: 50px 0; */
@@ -212,15 +221,6 @@ body {
   text-align: center;
   justify-content: center;
   padding: 10px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
 }
 
 @media only screen and (max-width: 768px) {
