@@ -120,13 +120,13 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Collezione</a>
+                    <a class="nav-link" href="#collezione">Collezione</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shop Now</a>
+                    <a class="nav-link" href="#shop-now">Shop Now</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contatti</a>
+                    <a class="nav-link" href="#contatti">Contatti</a>
                   </li>
                   <!-- <li class="nav-item">
                   <a
@@ -141,13 +141,13 @@
               </div>
             </div>
           </nav>
-          <div class="col-md-5">
-            <div class="col-md-12">
+          <div class="col-lg-5">
+            <div class="col-lg-12">
               <h3>SEVERE GUSTS ITALY</h3>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="col-md-12">
+          <div class="col-lg-5">
+            <div class="col-lg-12">
               <div class="img-rounded">
                 <img
                   src="./images/header/bag-1.png"
@@ -172,8 +172,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2 m-auto nav-images">
-            <div class="col-md-12 nav-img">
+          <div class="col-lg-2 m-auto nav-images">
+            <div class="col-lg-12 nav-img">
               <!-- <div class="connector active">
               <hr style="width: 230px; height: 1px" />
             </div> -->
@@ -184,7 +184,7 @@
                 alt=""
               />
             </div>
-            <div class="col-md-12 nav-img">
+            <div class="col-lg-12 nav-img">
               <!-- <div class="connector active">
               <hr style="width: 230px; height: 1px" />
             </div> -->
@@ -195,7 +195,7 @@
                 alt=""
               />
             </div>
-            <div class="col-md-12 nav-img">
+            <div class="col-lg-12 nav-img">
               <!-- <div class="connector active">
               <hr style="width: 230px; height: 1px" />
             </div> -->
@@ -206,7 +206,7 @@
                 alt=""
               />
             </div>
-            <div class="col-md-12 nav-img">
+            <div class="col-lg-12 nav-img">
               <!-- <div class="connector active">
               <hr style="width: 230px; height: 1px" />
             </div> -->
@@ -225,7 +225,7 @@
     <div class="container">
       <!-- Product Slider -->
 
-      <div class="product_slider">
+      <div class="product_slider" id="collezione">
         <h4 class="main_heading text-center my-5">
           Scopri la nuova collezione <span class="primray-text"> 2021 </span>
         </h4>
@@ -300,34 +300,29 @@
       </div>
 
       <!-- Shop Now Section -->
-      <div class="shop_now shadow-sm">
+      <div class="shop_now shadow-sm" id="shop-now">
         <div class="row">
           <h4 class="main_heading d-xl-none d-lg-none text-center">Shop Now</h4>
 
-          <div class="col-md-6 order-md-2">
-            <div class="col-md-12 shop_now__image">
-              <svg
-                viewBox="0 0 512 506"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M511 302.644C511 374.475 482.489 425.002 436.441 457.609C390.345 490.25 326.575 505 256 505C185.425 505 121.655 490.25 75.5586 457.609C29.5114 425.002 1 374.475 1 302.644C1 230.756 29.5627 155.312 75.76 97.8462C121.959 40.3789 185.697 1 256 1C326.303 1 390.041 40.3789 436.24 97.8462C482.437 155.312 511 230.756 511 302.644Z"
-                  stroke="#A6654B"
-                  stroke-width="2"
-                />
-              </svg>
-              <img src="./images/IMG_459AA.png" alt="" />
-
-              <!-- <img
-                src="./images/bag.jpg"
-                alt="shopping_image"
-                class="d-block w-100"
-                style=""
-              /> -->
+          <div class="col-lg-6 order-lg-2">
+            <div class="col-lg-12 shop_now__image">
+              <div class="col-auto m-auto">
+                <img src="./images/IMG_459AA.png" alt="" />
+                <svg
+                  viewBox="0 0 512 506"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M511 302.644C511 374.475 482.489 425.002 436.441 457.609C390.345 490.25 326.575 505 256 505C185.425 505 121.655 490.25 75.5586 457.609C29.5114 425.002 1 374.475 1 302.644C1 230.756 29.5627 155.312 75.76 97.8462C121.959 40.3789 185.697 1 256 1C326.303 1 390.041 40.3789 436.24 97.8462C482.437 155.312 511 230.756 511 302.644Z"
+                    stroke="#A6654B"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 order-md-1">
+          <div class="col-lg-6 order-lg-1">
             <div class="shop_now__text">
               <h4 class="main_heading d-none d-lg-block d-xl-block">
                 Shop Now
@@ -369,7 +364,7 @@
       </div>
 
       <!-- Contatti Section -->
-      <div class="contatti text-center">
+      <div class="contatti text-center text-dark" id="contatti">
         <h4 class="main_heading">Contatti</h4>
         <div class="container">
           <div class="row">
@@ -412,7 +407,7 @@
         },
       });
       $(".owl-prev").html(
-        '<i class="fa fa-chevron-left arrow shadow bg-white text-dark" style="left:0px;"></i>'
+        '<i class="fa fa-chevron-left arrow shadow" style="left:0px;"></i>'
       );
       $(".owl-next").html(
         '<i class="fa fa-chevron-right arrow shadow" style="right:0px;"></i>'
