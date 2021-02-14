@@ -14,8 +14,8 @@ window.onload = () => {
 
   function scrollFunction() {
     if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
+      document.body.scrollTop > 45 ||
+      document.documentElement.scrollTop > 45
     ) {
       topButton.style.display = "block";
       whatsappButton.style.display = "block";
