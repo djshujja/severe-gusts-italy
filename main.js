@@ -13,10 +13,8 @@ window.onload = () => {
   });
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 45 ||
-      document.documentElement.scrollTop > 45
-    ) {
+    // if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    if (window.scrollY > 300) {
       topButton.style.display = "block";
       whatsappButton.style.display = "block";
     } else {
