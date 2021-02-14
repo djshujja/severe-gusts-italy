@@ -146,13 +146,15 @@ body {
 }
 
 .shop_now__social_icons {
+  padding: 20px 0px;
   display: flex;
   justify-content: space-around;
 }
 
 .whatsapp_rectangle {
-  height: 35px;
-  width: 175px;
+  text-align: center;
+  height: 40px;
+  width: 180px;
   background-color: #21d367;
   padding: 5px 5px;
   border-radius: 25px;
@@ -192,6 +194,16 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.circle-ico {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   .owl-nav {
     position: relative;
@@ -207,7 +219,9 @@ a:hover {
   .shop_now__social_icons {
     display: grid;
     grid-template-columns: 60px 60px 60px;
-    justify-content: space-evenly;
+    justify-content: center;
+    border-top: 1px solid #cccccc;
+    padding-top: 25px;
   }
   .whatsapp_rectangle {
     margin: 15px auto;
