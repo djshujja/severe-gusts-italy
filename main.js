@@ -7,7 +7,7 @@ window.onload = () => {
         event.preventDefault();
       }
     },
-    false
+    { passive: false }
   );
 
   // Double Tap
