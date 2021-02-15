@@ -13,6 +13,27 @@ window.onload = () => {
     // topFunction();
   });
 
+  var contattiLink = document.getElementById("contatti-link");
+  var collezioneLink = document.getElementById("collezione-link");
+  var homeLink = document.getElementById("home-link");
+  var shopNowLink = document.getElementById("shop-now-link");
+
+  contattiLink.addEventListener("click", () => {
+    // console.log(contattiLink);
+    smoothScroll("contatti");
+  });
+
+  collezioneLink.addEventListener("click", () => {
+    smoothScroll("collezione");
+  });
+
+  homeLink.addEventListener("click", () => {
+    smoothScroll("hero");
+  });
+  shopNowLink.addEventListener("click", () => {
+    smoothScroll("shop-now");
+  });
+
   function currentYPosition() {
     // Firefox, Chrome, Opera, Safari
     if (self.pageYOffset) return self.pageYOffset;
