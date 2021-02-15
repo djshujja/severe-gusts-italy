@@ -30,29 +30,30 @@ window.onload = () => {
   }
 
   // PinchToZoom
-  document.addEventListener(
-    "touchmove",
-    function (event) {
-      if (event.scale !== 1) {
-        event.preventDefault();
-      }
-    },
-    { passive: false }
-  );
+  // document.addEventListener(
+  //   "touchmove",
+  //   function (event) {
+  //     if (event.scale !== 1) {
+  //       event.preventDefault();
+  //     }
+  //   },
+  //   { passive: false }
+  // );
 
   // Double Tap
-  var lastTouchEnd = 0;
-  document.addEventListener(
-    "touchend",
-    function (event) {
-      var now = new Date().getTime();
-      if (now - lastTouchEnd <= 300) {
-        event.preventDefault();
-      }
-      lastTouchEnd = now;
-    },
-    false
-  );
+  // var lastTouchEnd = 0;
+  // document.addEventListener(
+  //   "touchend",
+  //   function (event) {
+  //     var now = new Date().getTime();
+  //     if (now - lastTouchEnd <= 300) {
+  //       event.preventDefault();
+  //     }
+  //     lastTouchEnd = now;
+  //   },
+  //   false
+  // );
+
   //   Elements for Nav Images
   var navImgOne = document.getElementById("header-nav-img-1");
   var navImgTwo = document.getElementById("header-nav-img-2");
